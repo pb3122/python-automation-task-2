@@ -1,0 +1,41 @@
+1. POST IMAGE Feature:
+
+-Allows the user to upload images to the app.
+
+1.1 Working
+
+-For the working of POST IMAGE Feature:
+
+· The user must be logged-in.
+
+· The user must be in the First page.
+
+· The user must click Upload icon (id = "com.ATG.World:id/fab") and then Image Icon (id = “com.ATG.World:id/image_fab_clicked”)
+
+1.2 Testing Cases
+
+Test Case # Test Scenario Test Steps Test Data Expected Results Actual Results Pass/Fail
+
+TC#1.1 Checking Image Upload Using Back Camera of the Device Goto ‘Capture Image from Camera’ and Click Image Photo Clicked from back Camera. Upload SucessFull Upload SucessFull Pass
+
+TC#1.2 Checking Image Upload Using Back Camera of the Device Goto ‘Capture Image from Camera’, switch to front camera and Click Image Photo Clicked from front Camera Upload SucessFull Upload SucessFull Pass
+
+TC#2.1 Uploading Normal Size Image. Goto “Select Image From Gallery” and upload image of Size (~3MB apx.) Image From Gallery Size (Size 4.27 MB) Upload SucessFull Upload SucessFull Pass
+
+TC#2.2 Uploading Small Size Image. Goto “Select Image From Gallery” and upload image of Size (<100KB apx.) Image From Gallery Size (Size 47.3 KB) Upload SucessFull Upload SucessFull Pass
+
+TC#2.3 Uploading Large Size Image. Upload image of Size Image From Gallery Size Upload SucessFull Upload SucessFull Pass
+
+(>25MB apx.) (Size 30.88 MB)
+
+Other test cases include:
+
+· Test the POST IMAGE feature with image files of different extensions like PNG, BMP, JPEG etc.
+
+· Test with the image whose names contain space or some special characters.
+
+· Upload a duplicate name image.
+
+· Check the file selection dialog shows only supported files listed.
+
+· Checking tools for cropping and editing on supported file types
