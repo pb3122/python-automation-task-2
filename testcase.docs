@@ -28,14 +28,4 @@ TC#2.3 Uploading Large Size Image. Upload image of Size Image From Gallery Size 
 
 (>25MB apx.) (Size 30.88 MB)
 
-Other test cases include:
 
-· Test the POST IMAGE feature with image files of different extensions like PNG, BMP, JPEG etc.
-
-· Test with the image whose names contain space or some special characters.
-
-· Upload a duplicate name image.
-
-· Check the file selection dialog shows only supported files listed.
-
-· Checking tools for cropping and editing on supported file types
